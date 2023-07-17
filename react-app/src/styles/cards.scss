@@ -1,0 +1,27 @@
+.cards {
+    display: flex;
+    padding: 20px;
+}
+
+.cards__single {
+    display: flex;
+    flex-direction: column;
+    p {
+        flex-wrap: wrap;
+    }
+}
+
+.cards__price {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cards__title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    p {
+        flex-wrap: wrap;
+    }
+}
+ 
